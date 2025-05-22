@@ -1,5 +1,5 @@
 // Define the URL of the Artifactory registry
-//def registry = 'https://amol123.jfrog.io/'
+//def registry = 'https://trialmhx65x.jfrog.io/'
 
 
 pipeline {                                    // 1  // Defines the start of the Jenkins pipeline block
@@ -79,7 +79,7 @@ pipeline {                                    // 1  // Defines the start of the 
                           "files": [
                             {
                               "pattern": "jarstaging/(*)",
-                              "target": "amol-libs-release-local/{1}",
+                              "target": "sai-libs-release-local/{1}",
                               "flat": "false",
                               "props": "${properties}",
                               "exclusions": [ "*.sha1", "*.md5"]
